@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d043b27f-df6e-4d84-86ac-1e75094b3a4a" name="Changes" comment="fix: update responsive ui" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2KOTB3MYU5XoxbXSzYRWw0uKnoT" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "last_opened_file_path": "/Users/duchuong/Projects/blockchain-simulator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/duchuong/CodeLight/gb-tracking-event/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "settings.css.dialects",
+    "ts.external.directory.path": "/Users/duchuong/Projects/blockchain-simulator/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/hooks/store" />
+      <recent name="$PROJECT_DIR$/hooks/services" />
+      <recent name="$PROJECT_DIR$/assets/icons/assetional" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d043b27f-df6e-4d84-86ac-1e75094b3a4a" name="Changes" comment="" />
+      <created>1673844492574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673844492574</updated>
+      <workItem from="1673844493658" duration="1459000" />
+      <workItem from="1673851663915" duration="18559000" />
+      <workItem from="1673882590950" duration="2443000" />
+      <workItem from="1673917103336" duration="36544000" />
+      <workItem from="1674008702875" duration="28009000" />
+      <workItem from="1674088889958" duration="21279000" />
+      <workItem from="1675045248394" duration="75000" />
+      <workItem from="1675045331779" duration="23218000" />
+      <workItem from="1675088303880" duration="13240000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore: temporarily hide time button to implement">
+      <created>1673869957731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673869957731</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: hide unused component">
+      <created>1673869990086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673869990086</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: change get base url api method">
+      <created>1673870037428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673870037428</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: update description for website">
+      <created>1673870060598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673870060598</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: integrate auth with google (WIP)">
+      <created>1673870122608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673870122608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: update meta description">
+      <created>1673968532028</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968532028</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chore: remove unmatched menu icon">
+      <created>1673968567342</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968567342</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: use directly backend api url">
+      <created>1673968719519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968719519</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: remove unused component">
+      <created>1673968770794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968770794</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: hide and show scroll to top button behave weird">
+      <created>1673968848679</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968848679</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chore: add scale animate for image when hover upcoming event item">
+      <created>1673968912471</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968912471</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: implement search with time">
+      <created>1673969062219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969062219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: implement search bar in mobile view">
+      <created>1673969417761</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969417761</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add search float in mobile view in layout client">
+      <created>1673969446199</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969446199</updated>
+    </task>
+    <task id="LOCAL-00015" summary="chore: add unselect location">
+      <created>1673969563233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969563233</updated>
+    </task>
+    <task id="LOCAL-00016" summary="chore: add scale image animation when hover featured event item">
+      <created>1673969639155</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969639155</updated>
+    </task>
+    <task id="LOCAL-00017" summary="chore: add favourite icons">
+      <created>1673969692375</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969692375</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add favourite button">
+      <created>1673970269078</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673970269078</updated>
+    </task>
+    <task id="LOCAL-00019" summary="chore: apply favourite button to components">
+      <created>1673970325605</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673970325605</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: update responsive ui">
+      <created>1673970553425</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673970553425</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: temporarily hide time button to implement" />
+    <MESSAGE value="chore: hide unused component" />
+    <MESSAGE value="chore: change get base url api method" />
+    <MESSAGE value="chore: update description for website" />
+    <MESSAGE value="chore: integrate auth with google (WIP)" />
+    <MESSAGE value="chore: update meta description" />
+    <MESSAGE value="chore: remove unmatched menu icon" />
+    <MESSAGE value="fix: use directly backend api url" />
+    <MESSAGE value="fix: remove unused component" />
+    <MESSAGE value="fix: hide and show scroll to top button behave weird" />
+    <MESSAGE value="chore: add scale animate for image when hover upcoming event item" />
+    <MESSAGE value="feat: implement search with time" />
+    <MESSAGE value="feat: implement search bar in mobile view" />
+    <MESSAGE value="feat: add search float in mobile view in layout client" />
+    <MESSAGE value="chore: add unselect location" />
+    <MESSAGE value="chore: add scale image animation when hover featured event item" />
+    <MESSAGE value="chore: add favourite icons" />
+    <MESSAGE value="feat: add favourite button" />
+    <MESSAGE value="chore: apply favourite button to components" />
+    <MESSAGE value="fix: update responsive ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update responsive ui" />
+  </component>
+</project>
