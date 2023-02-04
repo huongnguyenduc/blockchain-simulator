@@ -1,0 +1,31 @@
+.flow {
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.customNode {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.customPendingNode {
+    padding: 10px;
+    width: 200px;
+    border: 1px dashed #000;
+    border-radius: 5px;
+}
+
+.copyButton {
+    cursor: pointer;
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
