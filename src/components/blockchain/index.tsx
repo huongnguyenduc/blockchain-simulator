@@ -108,7 +108,7 @@ function Blockchain({ ip, port }: any) {
       <Drawer
         opened={selectedBlock !== null}
         onClose={() => onBlockSelect(null)}
-        title={`Block ${selectedBlock?.data.header.nonce}`}
+        title={`Block ${selectedBlock?.data.header.number}`}
         padding="xl"
         size="50%"
         position={"right"}
