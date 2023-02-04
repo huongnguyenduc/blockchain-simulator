@@ -1,4 +1,4 @@
-import styles from "components/Flow/Flow.module.css";
+import styles from "components/node/Flow.module.css";
 import { Node } from "reactflow";
 import { BlockchainBlock } from "types";
 
@@ -28,7 +28,7 @@ export const initialBlocks: Node<BlockchainBlock>[] = [
       ],
     },
     position: { x: 150, y: 5 },
-    type: "custom",
+    type: "customBlock",
     className: styles.customNode,
   },
   {
@@ -56,7 +56,7 @@ export const initialBlocks: Node<BlockchainBlock>[] = [
       ],
     },
     position: { x: 100, y: 330 },
-    type: "custom",
+    type: "customBlock",
     className: styles.customNode,
   },
   {
@@ -84,7 +84,7 @@ export const initialBlocks: Node<BlockchainBlock>[] = [
       ],
     },
     position: { x: 600, y: 100 },
-    type: "custom",
+    type: "customBlock",
     className: styles.customNode,
   },
   {
@@ -112,7 +112,7 @@ export const initialBlocks: Node<BlockchainBlock>[] = [
       ],
     },
     position: { x: 600, y: 330 },
-    type: "custom",
+    type: "customBlock",
     className: styles.customNode,
   },
 ];
