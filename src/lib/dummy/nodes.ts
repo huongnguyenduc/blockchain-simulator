@@ -1,4 +1,4 @@
-import styles from "components/Flow/Flow.module.css";
+import styles from "components/node/Flow.module.css";
 import { Node } from "reactflow";
 import { BlockchainNode } from "types/node";
 
@@ -6,7 +6,7 @@ export const initialNodes: Node<BlockchainNode>[] = [
   {
     id: "1",
     data: {
-      account: "Node 1",
+      account: "node 1",
       ip: "192.168.1.1",
       is_bootstrap: true,
       port: 3000,
@@ -18,7 +18,7 @@ export const initialNodes: Node<BlockchainNode>[] = [
   {
     id: "2",
     data: {
-      account: "Node 2",
+      account: "node 2",
       ip: "192.168.1.1",
       is_bootstrap: false,
       port: 3001,
@@ -30,7 +30,7 @@ export const initialNodes: Node<BlockchainNode>[] = [
   {
     id: "3",
     data: {
-      account: "Node 3",
+      account: "node 3",
       ip: "192.168.1.1",
       is_bootstrap: false,
       port: 3002,
@@ -42,7 +42,7 @@ export const initialNodes: Node<BlockchainNode>[] = [
   {
     id: "4",
     data: {
-      account: "Node 4",
+      account: "node 4",
       ip: "192.168.1.1",
       is_bootstrap: false,
       port: 3003,
