@@ -1,4 +1,5 @@
 import { MantineProvider } from "@mantine/core";
+import { NotificationsProvider } from "@mantine/notifications";
 import type { AppProps } from "next/app";
 import "reactflow/dist/style.css";
 
@@ -14,7 +15,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         colorScheme: "light",
       }}
     >
-      <Component {...pageProps} />
+      <NotificationsProvider>
+        <Component {...pageProps} />
+      </NotificationsProvider>
     </MantineProvider>
   );
 }
