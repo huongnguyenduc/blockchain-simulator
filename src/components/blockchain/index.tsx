@@ -9,7 +9,7 @@ import { BalanceModal } from "components/modal/balance/balance-modal";
 import { TransactionTable } from "components/table/transaction/transaction-table";
 import useBlockStore from "lib/hooks/store/block";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ReactFlow, { ConnectionLineType } from "reactflow";
 import { BlockState, NodeRequest } from "types";
 import { shallow } from "zustand/shallow";
@@ -55,8 +55,15 @@ function Blockchain({ ip, port }: any) {
     loadBlocks,
   } = useBlockStore(blockSelector, shallow);
 
+  const loadBlockDataRef = useRef(false);
+
   useEffect(() => {
+    loadBlockDataRef.current = true;
+
     async function loadBlockData() {
+      if (!loadBlockDataRef.current) {
+        return;
+      }
       await loadBlocks({ ip, port } as NodeRequest);
       // wait for 1 second
       await new Promise((resolve) => setTimeout(resolve, 2000));
@@ -65,7 +72,11 @@ function Blockchain({ ip, port }: any) {
     }
 
     loadBlockData();
-  }, []);
+
+    return () => {
+      loadBlockDataRef.current = false;
+    };
+  }, [ip, port, loadBlocks]);
 
   const [openedMemPool, setOpenedMemPool] = useState(false);
   const [openedCreateWallet, setOpenedCreateWallet] = useState(false);
